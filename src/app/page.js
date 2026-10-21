@@ -54,7 +54,7 @@ function Page() {
         Decrease
       </button>
 
-      <h1 className="count-title">Count: {count}</h1>
+      <h1 className="count-title">Read Digits: {count}</h1>
 
       <button className="btn" onClick={handleClickIncrease}>
         Increase
