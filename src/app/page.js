@@ -61,7 +61,7 @@ function Page() {
       </button>
 
       <div className="main-container">
-        {loading && <p>Loading products...</p>}
+        {loading && <p>Loading...</p>}
 
         {error && <p>{error}</p>}
 
